@@ -1,14 +1,14 @@
 # programmingリポジトリの使用方法
 
 ## 初期設定
-GitHubアカウント作成（右上のサインアップクリック）
-https://github.co.jp/
-参考サイト
-https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d
+GitHubアカウント作成（右上のサインアップクリック）  
+https://github.co.jp/  
+参考サイト  
+https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d  
 
-Visual Studio Codeでプラグインをいれる
-Git Graph
-各ブランチの樹形図が見れる
+Visual Studio Codeでプラグインをいれる  
+Git Graph  
+各ブランチの樹形図が見れる  
 
 ## 概要
 1. 各フォルダ内で新たに作業用フォルダを作成して作業する
