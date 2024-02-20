@@ -1,9 +1,10 @@
 @charset "utf-8";
 
-[target] {
-  font-weight: bold;
+div.box {
+  color: red;
 }
 
-[type="password"] {
-  border: 8px solid blue;
+h1, 
+p {
+  background: pink;
 }
