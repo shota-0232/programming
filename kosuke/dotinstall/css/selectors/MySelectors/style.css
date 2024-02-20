@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+[target] {
+  font-weight: bold;
+}
+
+[type="password"] {
+  border: 8px solid blue;
+}
