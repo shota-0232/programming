@@ -1,26 +1,33 @@
 @charset "utf-8";
 
+body {
+  margin: 0;
+}
+
+header {
+  background: pink;
+}
+
 .container {
-  border: 8px solid blue;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
 }
 
-.item-1 {
-  width: 80px;
-  height: 80px;
-  background-color: pink;
+main {
+  background: skyblue;
+  flex: 1;
 }
 
-.item-2 {
-  width: 80px;
-  height: 80px;
-  background-color: skyblue;
+nav {
+  background: tomato;
+  width: 160px;
+  order: -1;
 }
 
-.item-3 {
-  width: 80px;
-  height: 80px;
-  background-color: orange;
+aside {
+  background: orange;
+  width: 160px;
+}
+
+footer {
+  background: silver;
 }
