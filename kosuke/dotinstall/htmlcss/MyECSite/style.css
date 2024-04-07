@@ -14,7 +14,6 @@ h2 {
   margin: 0;
   font-weight: normal;
   font-size: 20px;
-  margin-top: 32px;
 }
 
 h3 {
@@ -37,6 +36,15 @@ img {
   width: calc(100% - 64px);
   box-sizing: border-box;
   padding: 32px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 /* products */
@@ -77,4 +85,31 @@ footer {
 
 small {
   font-size: 14px;
+}
+
+/* product */
+
+.product {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.product div {
+  flex: 1;
+}
+
+.product p {
+  margin-top: 16px;
+}
+
+.product button {
+  margin-top: 16px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
 }
