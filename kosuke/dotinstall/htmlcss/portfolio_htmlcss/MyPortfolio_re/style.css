@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+* {
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+}
+
+header {
+  background-color: #eee;
+  padding: 32px;
+}
+
+/* img {
+  border-radius: 50%;
+} */
+
+h1 {
+  font-size: 24px;
+  margin-top: 16px;
+}
